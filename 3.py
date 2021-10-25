@@ -48,5 +48,4 @@ output_txt += tabs * 4 * ' ' + "},\n"
 
 output_txt += timetable_txt[:-2] + "\n}"
 
-#open("timetable.json", "w").write(output_txt)
-print(output_txt)
+open("timetable.json", "w").write(output_txt)
