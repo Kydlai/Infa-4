@@ -1,0 +1,8 @@
+<?xml vresion="1.0" encoding="utf-8" ?>
+<timetable lang="ru" group="P3111" day="wetnesday">
+   <lessons>
+      <lesson time="11:40-13:10" room="372 ауд." place="Кронверкский пр., д.49, лит.А" lesson="Программирование (лаб)" teacher="Исаев Илья Владимирович" format="Очно-дистанционный" />
+      <lesson time="13:30-15:00" room="372 ауд." place="Кронверкский пр., д.49, лит.А" lesson="Программирование (лаб)" teacher="Исаев Илья Владимирович" format="Очно-дистанционный" />
+   </lessons>
+</timetable>
+
