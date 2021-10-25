@@ -48,7 +48,6 @@ for i in input_txt:
         output_txt += tabs * 4 * ' ' + "}\n"       
         break
 
-open("timetable.json", "w").write(output_txt)
 print(time.perf_counter() - start_time)
 
 ########################################################################################################
@@ -62,7 +61,6 @@ with open("timetable.xml", 'r', encoding="utf-8") as file:
 
 table = xmltodict.parse(my_xml)
 
-open("timetable.json", "w").write(json.dumps(table, indent=4, ensure_ascii=False))
 print(time.perf_counter() - start_time)
 
 ########################################################################################################
