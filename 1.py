@@ -46,4 +46,3 @@ for i in input_txt:
         break
 
 open("timetable.json", "w").write(output_txt)
-print(output_txt)
